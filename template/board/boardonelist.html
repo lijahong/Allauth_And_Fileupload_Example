@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if post %}
+
+제목 : {{post.title}}
+<hr/>
+내용 : {{post.contents}}
+
+{% for image in post.postimage_set.all %}
+이미지 : <img src = "/media/{{ image.image }}">
+<br/>
+{% endfor %}
+{% endif %}
+</body>
+</html>
+
