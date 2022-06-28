@@ -19,8 +19,8 @@ def kakaologinpage(request):
 def getcode(request):
     code = request.GET.get('code')
     data = {'grant_type': 'authorization_code',
-            'client_id':'569902a28ff22740161e573f603ec486', #발급받은 앱 키
-            'redirect_uri': 'http://127.0.0.1:8000/oauth/redirect', #redirect url
+            'client_id':'발급받은 앱 키', #발급받은 앱 키
+            'redirect_uri': 'redirect url', #redirect url
             'code':code #받은 인가 코드
             }
     headers = {'Contents-type':'application/x-www-form-urlencoded;charset=utf-8'}

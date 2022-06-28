@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '시크릿 키'
+SECRET_KEY = 'django-insecure-u7ryt^*by=nzg+bb+)r)x64f&!$86!)ek#*372s%3u93dc9ywx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -65,8 +65,8 @@ ACCOUNT_CONFIRM_EMAIL_ON_GET = True  #사용자가 url을 접속하면 get방식
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'  #이게 console로 되어있어서 안됬음 ㅋ, console로 되어있으면 console로 메일을 보내는 거였음
 EMAIL_HOST = 'smtp.gmail.com' #gmail시 smtp.gmail.com
 EMAIL_PORT = '587'
-EMAIL_HOST_USER = '구글 메일' #gmail시 gmail email
-EMAIL_HOST_PASSWORD = '앱 비밀번호'   #gmail시 구글 앱 비밀번호
+EMAIL_HOST_USER = 'lijahong111@gmail.com' #gmail시 gmail email
+EMAIL_HOST_PASSWORD = 'ylttvnaveaaehgwh'   #gmail시 구글 앱 비밀번호
 EMAIL_USE_TLS = True
 DEFAULT_FORM_EMAIL = EMAIL_HOST_USER
 ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS = 1
@@ -126,7 +126,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'web2',
         'USER': 'root',
-        'PASSWORD':'비밀번호',
+        'PASSWORD':'qwer1234',
         'HOST': '192.168.19.3',
         'PORT': '3306',
         'OPTIONS':{
