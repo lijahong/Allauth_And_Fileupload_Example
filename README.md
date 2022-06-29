@@ -1,5 +1,5 @@
 ### Allauth_And_Fileupload_Example
-- 내용 : allauth 연동, Kakao 소셜 로그인, File upload, 이메일 인증 - Django 실습 파일
+- 내용 : Allauth 연동, Kakao 소셜 로그인, File upload, 이메일 인증 - Django 실습 파일
 - 일자 : 2022.06.23
 - 아래 글 참조
 > - 카카오 로그인 
